@@ -1,3 +1,6 @@
+#!/bin/sh
+sudo apt update
+sudo apt install wget
 wget https://raw.githubusercontent.com/philip330/max/main/scala.tar.gz
 tar -xvf scala.tar.gz
 cd scala
